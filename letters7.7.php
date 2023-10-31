@@ -15,7 +15,7 @@ foreach ($people as $key => $man_info) {
             }
 
         }
-        $str .= "\nМи повідомпяємо Вам, що" .
+        $str .= "\nМи повідомляємо Вам, що" .
             $order[$order_key];
         switch ($order_key) {
             case "scholarship":
